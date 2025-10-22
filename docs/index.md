@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# Gimbal Stabilization System
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This documentation describes the development of a 2/3-axis FPV gimbal 
+for drone applications, focusing on precise stabilization and orientation feedback.
 
-## Commands
+## Repository
+[GitHub - CopterLab/gimbal-stabilization-system](https://github.com/CopterLab/gimbal-stabilization-system)
+TBD Unfortunately, the repository must be public in order to host free pages at the organisation level. Perhaps we should leave this repository public, but store the software in another, private repository.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Contents
+- System overview and goals
+- Requirements hierarchy (L1–L3)
+- Hardware and firmware architecture
+- Interfaces and communication
+- Verification and testing

@@ -15,8 +15,8 @@ theme:
     - content.code.copy
   palette:
       scheme: slate
-      primary: teal
-      accent: lime
+      primary: indigo
+      accent: cyan
   icon:
     repo: fontawesome/brands/github
 
