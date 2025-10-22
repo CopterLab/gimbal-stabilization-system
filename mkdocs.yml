@@ -1,15 +1,70 @@
-site_name: My Docs
-nav:
-  - Home: index.md
-  - About: about.md
-site_url: https://example.com
+site_name: Gimbal Stabilization System
+site_url: https://copterlab.github.io/gimbal-stabilization-system/
+repo_url: https://github.com/CopterLab/gimbal-stabilization-system
+repo_name: CopterLab/gimbal-stabilization-system
+edit_uri: edit/main/docs/
+
 theme:
   name: material
   features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
     - navigation.footer
+    - toc.integrate
+    - content.code.copy
+  palette:
+      scheme: slate
+      primary: teal
+      accent: lime
+  icon:
+    repo: fontawesome/brands/github
 
-  palette: 
-    scheme: slate
-    primary: indigo
-    accent: indigo
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+  - footnotes
+  - tables
+  - abbr
+
+nav:
+  - Home: index.md
+  - Overview:
+      - Project Vision: overview/project_vision.md
+      - System Context: overview/system_context.md
+      - Roadmap: overview/roadmap.md
+  - Requirements:
+      - L1 System Requirements: requirements/l1_system.md
+      - L2 Control Subsystem: requirements/l2_control.md
+      - L2 Power Subsystem: requirements/l2_power.md
+      - L2 Communication Subsystem: requirements/l2_communication.md
+      - L3 Implementation Details: requirements/l3_implementation.md
+      - Traceability Matrix: requirements/traceability_matrix.md
+  - Architecture:
+      - System Block Diagram: architecture/system_block_diagram.md
+      - Hardware Architecture: architecture/hardware_architecture.md
+      - Firmware Architecture: architecture/firmware_architecture.md
+      - Data Flow: architecture/data_flow.md
+  - Interfaces:
+      - UART Protocol: interfaces/uart_protocol.md
+      - CAN Protocol: interfaces/can_protocol.md
+      - Electrical Interfaces: interfaces/electrical_interfaces.md
+      - Mechanical Interfaces: interfaces/mechanical_interfaces.md
+  - Testing:
+      - Test Plan: testing/test_plan.md
+      - Test Procedures: testing/test_procedures.md
+      - Test Results: testing/test_results.md
+      - Calibration: testing/calibration.md
+  - Reports:
+      - Weekly Logs: reports/weekly_log_template.md
+      - Change Log: reports/change_log.md
+      - Known Issues: reports/known_issues.md
+  - References:
+      - Datasheets: references/datasheets.md
+      - Standards: references/standards.md
+      - Bibliography: references/bibliography.md
 copyright: 'Copyright © 2025 CopterLab'
