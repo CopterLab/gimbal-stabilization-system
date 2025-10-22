@@ -1,0 +1,12 @@
+site_name: My Docs
+site_url: https://example.com
+theme:
+  name: material
+  features:
+    - navigation.footer
+
+  palette: 
+    scheme: slate
+    primary: indigo
+    accent: indigo
+copyright: 'Copyright © 2025 CopterLab'
