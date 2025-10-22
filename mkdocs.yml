@@ -1,4 +1,7 @@
 site_name: My Docs
+nav:
+  - Home: index.md
+  - About: about.md
 site_url: https://example.com
 theme:
   name: material
