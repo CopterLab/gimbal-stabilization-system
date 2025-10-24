@@ -39,9 +39,9 @@ nav:
       - Roadmap: overview/roadmap.md
   - Design Requirements:
       - 0.0 - Stakeholders: 
-          - 0.1 - Customers Requirements: design_requirements/0.1_customers_requirements.md
-          - 0.2 - Standards and Norms: design_requirements/0.2_standards_and_norms.md
-          - 0.3 - Business Development Requirements: design_requirements/0.3_business_development.md
+          - 0.1 - Customers Requirements: design_requirements/0.0_Stakeholders/0.1_customers_requirements.md
+          - 0.2 - Standards and Norms: design_requirements/0.0_Stakeholders/0.2_standards_and_norms.md
+          - 0.3 - Business Development Requirements: design_requirements/0.0_Stakeholders/0.3_business_development.md
       - L1 System Requirements: design_requirements/l1_system.md
       - L2 Control Subsystem: design_requirements/l2_control.md
       - L2 Power Subsystem: design_requirements/l2_power.md
