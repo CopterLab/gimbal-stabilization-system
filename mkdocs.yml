@@ -9,10 +9,12 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+#    - navigation.expand
+    - navigation.path
     - navigation.top
     - navigation.footer
-    - toc.integrate
-    - content.code.copy
+    # - toc.integrate
+#   nav_depth: 3
   palette:
       scheme: slate
       primary: indigo
@@ -38,16 +40,33 @@ nav:
       - System Context: overview/system_context.md
       - Roadmap: overview/roadmap.md
   - Design Requirements:
-      - 0.0 - Stakeholders: 
-          - 0.1 - Customers Requirements: design_requirements/0.0_Stakeholders/0.1_customers_requirements.md
-          - 0.2 - Standards and Norms: design_requirements/0.0_Stakeholders/0.2_standards_and_norms.md
-          - 0.3 - Business Development Requirements: design_requirements/0.0_Stakeholders/0.3_business_development.md
-      - L1 System Requirements: design_requirements/l1_system.md
-      - L2 Control Subsystem: design_requirements/l2_control.md
-      - L2 Power Subsystem: design_requirements/l2_power.md
-      - L2 Communication Subsystem: design_requirements/l2_communication.md
-      - L3 Implementation Details: design_requirements/l3_implementation.md
-      - Traceability Matrix: design_requirements/traceability_matrix.md
+      - Documents & Pages:
+        - Index: design_requirements/index.md
+        - 0.0 - Stakeholders: 
+            - 0.1 Customer Requirements: design_requirements/0.0_Stakeholders/0.1_customers_requirements.md
+            - 0.2 Standards and Norms: design_requirements/0.0_Stakeholders/0.2_standards_and_norms.md
+            - 0.3 Business Development Requirements: design_requirements/0.0_Stakeholders/0.3_business_development.md
+            - 0.4 Do not use_Standards: design_requirements/0.0_Stakeholders/0.4_do_not_use_standards.md
+        - 1.0 - L1 System:
+            - Index: 1.0-l1-system/index.md
+            - Design Set:
+                - Index: 1.0-l1-system/design-set/index.md
+            - Deviations:
+                - Index: 1.0-l1-system/deviations/index.md
+            - Requirements Set:
+                - Index: 1.0-l1-system/requirements-set/index.md
+            - Test Set:
+                - Index: 1.0-l1-system/test-set/index.md
+            - L1 Overall Testing Metrics: 1.0-l1-system/l1-overall-testing-metrics.md
+            - L1 Requirements Overview: 1.0-l1-system/l1-requirements-overview.md
+            - Link Coverage - L0 Standards: 1.0-l1-system/link-coverage-l0-standards.md
+            - Link Coverage All: 1.0-l1-system/link-coverage-all.md
+        - L1 System Requirements: design_requirements/l1_system.md
+        - L2 Control Subsystem: design_requirements/l2_control.md
+        - L2 Power Subsystem: design_requirements/l2_power.md
+        - L2 Communication Subsystem: design_requirements/l2_communication.md
+        - L3 Implementation Details: design_requirements/l3_implementation.md
+        - Traceability Matrix: design_requirements/traceability_matrix.md
   - Architecture:
       - System Block Diagram: architecture/system_block_diagram.md
       - Hardware Architecture: architecture/hardware_architecture.md
